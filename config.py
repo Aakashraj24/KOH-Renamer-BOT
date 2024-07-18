@@ -2,17 +2,17 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("API_ID", "")
+API_ID = os.environ.get("API_ID", "29201763")
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "10d0e463862b3d0e4c2441aa70b73c8f")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
 FORCE_SUB = os.environ.get("FORCE_SUB", "") 
 
-DB_NAME = os.environ.get("DB_NAME","")     
+DB_NAME = os.environ.get("DB_NAME","kohbots")     
 
-DB_URL = os.environ.get("DB_URL","")
+DB_URL = os.environ.get("DB_URL","mongodb+srv://<username>:jjv9k0LxbBFIVH7f@cluster0.fyf3gsf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
